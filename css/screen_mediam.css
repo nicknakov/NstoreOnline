@@ -1,0 +1,98 @@
+#container{width:95%;}
+
+#top_banner{
+	width:95%;
+}
+
+a.logo {
+	position: absolute;
+	width: 90px;
+	height: 52.5px;
+	top: 50px;
+	left: 10px;
+	background-image: url(../images/logo2_midium.png);
+	background-repeat: no-repeat;
+}
+
+
+
+a.logo:hover{
+	background-position: bottom;
+}
+
+#menu {   
+    list-style-type:none;  
+    font-size:0.8em;  
+}
+
+#menu a { 
+  	padding:0 14px;
+}
+
+#right-container{width:0px; display: none;}
+#contentarea #maincontent{width:77.5%;}
+
+
+
+#leftside_menu > ul > li > a > span {
+	padding: 10px; 10px;
+}
+
+#izgled{
+	display: none;
+}
+
+.rullers{width: 47%;}
+#sortirai{width: auto; margin-right:5px; float:right;}
+
+/* -------------- Iten Review Start  ----------------------*/
+
+#item-review{font-size: 16px;}
+.review h3{ font-size: 12px; line-height: 35px;}
+h3.total-price{font-size: 14px;}
+
+
+
+@media screen and (max-width: 780px){			/*---------------------------------*/
+
+#contentarea #maincontent{
+	float:left;
+	width:75%;
+}
+
+#contentarea #maincontent .thumbs{				/*must be over written for list view!!!*/
+	width:45%;
+	max-width: 215px;
+}
+
+#spesification-table{height: auto; border-top: 1px solid #ccc;}
+
+.info{
+	width: 100%;
+	border-top: none;
+	border-right: 1px solid #ccc;
+	text-align: center;
+}
+
+.info-head{
+	float: left;
+	width: 30%;
+	background-color: #0099cc;
+	color:#fff;
+	line-height: 28px;
+}
+
+.info-value{
+	float: left;
+	width: 70%;
+	line-height: 28px;
+}
+
+}												/* end max-width: 780px*/
+
+
+
+@media screen and (max-width: 720px){
+	#menu a{padding:0 9px;}
+	.rullers{margin-right:0px;}
+}
