@@ -1,0 +1,31 @@
+info from - http://www.rockhoppertech.com/blog/spring-mvc-configuration-without-xml/
+@Override
+public void onStartup(ServletContext servletContext) throws ServletException {
+ 
+...
+ 
+   FilterRegistration.Dynamic fr = servletContext.addFilter("encodingFilter",  
+      new CharacterEncodingFilter());
+   fr.setInitParameter("encoding", "UTF-8");
+   fr.setInitParameter("forceEncoding", "true");
+   fr.addMappingForUrlPatterns(null, true, "/*");
+...
+ 
+}
+
+info from - http://blog.lanyonm.org/articles/2014/11/23/spring-4-sitemesh-java-config.html
+
+public class AppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
+
+    ...
+
+    @Override
+    protected Filter[] getServletFilters() {
+        CharacterEncodingFilter characterEncodingFilter = new CharacterEncodingFilter();
+        characterEncodingFilter.setEncoding("UTF-8");
+        return new Filter[]{ characterEncodingFilter, new SiteMeshFilter() };
+    }
+}
+
+
+more info - http://www.programcreek.com/java-api-examples/index.php?api=org.springframework.web.filter.CharacterEncodingFilter
