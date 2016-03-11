@@ -37,3 +37,6 @@ http://goodcodes.tistory.com/entry/Spring-Data-JPA-JAVA-Config-1
 spring java config:
 
 http://www.rockhoppertech.com/blog/spring-mvc-configuration-without-xml/
+
+
+Java Spring MVC Framework with Java Based Configuration
