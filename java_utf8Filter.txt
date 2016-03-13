@@ -40,3 +40,19 @@ http://www.rockhoppertech.com/blog/spring-mvc-configuration-without-xml/
 
 
 Java Spring MVC Framework with Java Based Configuration
+
+Another way to configure charsetFilter in WebAppInitializer class inside onStartup method !!!!!-------------------------
+
+	public class WebAppInit implements WebApplicationInitializer {
+
+		@Override
+		public void onStartup(ServletContext container) throws ServletException {
+			
+			CharacterEncodingFilter filter = new CharacterEncodingFilter("UTF-8", true);
+			
+			container.addFilter("charsetEncodingFilter", filter)
+				.addMappingForServletNames(null, true, "/*");
+
+		}
+	}
+------------------------------------------------------------------------------------	
