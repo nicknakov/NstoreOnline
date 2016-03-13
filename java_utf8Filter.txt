@@ -29,3 +29,14 @@ public class AppInitializer extends AbstractAnnotationConfigDispatcherServletIni
 
 
 more info - http://www.programcreek.com/java-api-examples/index.php?api=org.springframework.web.filter.CharacterEncodingFilter
+
+JPA example : 
+
+http://goodcodes.tistory.com/entry/Spring-Data-JPA-JAVA-Config-1
+
+spring java config:
+
+http://www.rockhoppertech.com/blog/spring-mvc-configuration-without-xml/
+
+
+Java Spring MVC Framework with Java Based Configuration
