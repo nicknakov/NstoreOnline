@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.nstore.taxitracker.MainActivity">
+    <item
+        android:id="@+id/action_login"
+        android:orderInCategory="100"
+        android:title="@string/action_login"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_logOut"
+        android:orderInCategory="101"
+        android:title="@string/string_action_logout"
+        app:showAsAction="never" />
+</menu>
