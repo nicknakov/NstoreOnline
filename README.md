@@ -221,12 +221,7 @@ public final class ToWordsModuleNiki {
 
 //Helper class added by VB to Java Converter:
 
-//----------------------------------------------------------------------------------------
-//	Copyright © 2007 - 2021 Tangible Software Solutions, Inc.
-//	This class can be used by anyone provided that the copyright notice remains intact.
-//
-//	This class is used to replicate some .NET string methods in Java.
-//----------------------------------------------------------------------------------------
+
 
 	
 	
